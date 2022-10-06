@@ -2,80 +2,94 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!--UTF-8 is a variable-width character encoding used 
-    for electronic communication defined by the Unicode Standard-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vivek soni first site</title>
+    <title>Vivek Soni</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Ubuntu:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Raleway:wght@500&family=Ubuntu:ital@1&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <table cellspacing="15">
-      <tr>
-        <td>
-          <img src="myimage-modified.png" alt="vivek soni image" width="200" height="200"/>
-        </td>
-        <td>
-          <h1>Vivek Soni</h1>
-          <p><strong>First year student at <a href="http://www.nsit.ac.in/">NSUT</a></strong></p>
-          <p>
-            <ul style="list-style-type: disc;">
-              <li>Pursuing Btech in Mathematics and computing.</li>
-              <li>Learning DSA and web development.</li>
-              <li>A beginner in competitive programming.</li>
-            </ul>
-          </p>
-        </td>
-      </tr>
-    </table>
+    <div class="top-container">
+      <div class="top-cloud">
+        <img src="images/cloud.png" alt="cloud-img" />
+      </div>
+      <h1>Hi I'm Vivek</h1>
+      <h2>a programmer</h2>
 
-    <hr size="1" noshade />
-    <h2>About me</h2>
-    <!--Unordered list-->
-    <ul style="list-style-type: circle;">
-      <li>Love watching cricket matches, investegation documentries, movies etc.</li>
-      <li>My favourite actor is Tom Cruise.</li>
-      <li>Also love martial arts, a big fan of Jackie Chan</li>
-      <li>Deeply interested in Artificial Intelligence, machine learning and their wide application.</li>
-    </ul>
-    <hr size="1" noshade >
-    <!--Two tables nested inside a single table-->
-    <h2>My Skills</h2>
-    <h3>
-      <table>
-        <tr>
-          <td>
-            <table cellspacing="18">
-              <tr>
-                <td>Python</td>
-                <td>🌟🌟🌟</td>
-              </tr>
-              <tr>
-                <td>C/C++</td>
-                <td>🌟🌟🌟🌟</td>
-              </tr>
-            </table>
-          </td>
-          <td>
-            <table cellspacing="18">
-              <tr>
-                <td>Problem solving</td>
-                <td>🌟🌟</td>
-              </tr>
-              <tr>
-                <td>HTML</td>
-                <td>🌟🌟🌟</td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-    </h3>
-    <hr size = "1" noshade>
-    <h3><a href="test_score.html">My test scores</a></h3>
-    <em>To visit my linkedin page</em>
-    <a href="https://www.linkedin.com/in/vivek-soni-6a1393212/"><strong>Click Here</strong></a>
-    <strong><h3><a href="contact.html">Contact me</a></h3></strong>
-    </h3>
+      <div class="bottom-cloud">
+        <img src="images/cloud.png" alt="cloud-img" />
+      </div>
+      <div class="mountain">
+        <img src="images/mountain.png" alt="mountain-img" />
+      </div>
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img src="images/myimage-modified.png" alt="my-image" />
+        <h2>Hello.</h2>
+        <p>I'm an engineering student and a beginner competitive programmer.</p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img
+            class="coding"
+            src="images/0f8b2870896edcde8f6149fe2733faaf.jpg"
+            alt="code-logo"
+          />
+          <h3>Competitive Programming and development</h3>
+          <p>
+            I really love coding as it involves lot of logic and maths. My first
+            programming language was Python
+          </p>
+        </div>
+        <div class="skill-row">
+          <img
+            class="maths"
+            src="images/maths.jpg"
+            alt="maths-logo"
+          />
+          <h3>High school mathematics</h3>
+          <p class="maths-content">
+            My interest in mathematics begin when I was in my 7th standard. I'm
+            good in calculus, geometry and vector alzebra. Applied maths is my favourite subject in maths.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you want to do competitive programming with me.</h3>
+        <p class="Contact-content">
+          I do competitive programming twice a week with my friends if you are also intereseted then you can 
+          share all your cp profile(codeforces or codechef).
+        </p>
+        <a class="btn" href="mailto:sonisheela1977@email.com">CONTACT ME</a>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a
+        class="linkedin-link"
+        href="https://www.linkedin.com/in/vivek-soni-6a1393212/"
+        >LinkedIn</a
+      >
+      <a class = "Github-link" href="https://github.com/Vsoni27">GitHub</a>
+      <a class = "codeforces" href="https://codeforces.com/profile/vivond27">Codeforces</a>
+      <p class="credits">© Vivek Soni.</p>
+    </div>
   </body>
 </html>
-
