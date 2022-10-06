@@ -1,0 +1,141 @@
+a {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAf6f6;
+}
+
+body {
+  margin: 0px;
+  color: #40514E;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top,#11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top,  #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom,  #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 5em; /*100% = 16px*/
+  margin-top: 50px;
+  line-height: 2;
+  font-family: "Dancing Script", cursive;
+  color: #66bfbf;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66bfbf;
+}
+
+h3 {
+  color: #11999e;
+}
+
+hr {
+  border-color: #eaf6f6;
+  border-style: dotted none none;
+  border-width: 6px;
+  width: 5%;
+  margin: 75px auto 75px auto;
+}
+
+p {
+  font-weight: bold;
+}
+
+.top-container {
+  background-color: #e0ebe8;
+  padding: 20px;
+  position: relative;
+  padding-top: 100px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.bottom-container {
+  margin: 70px 0px 0px 0px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background-color: #66bfbf;
+  bottom: 0px;
+  word-spacing: 40px;
+}
+
+.coding {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Contact-content {
+  text-align: center;
+  width: 700px;
+  margin: 40px auto 60px auto;
+}
+
+.credits {
+  color: #eaf6f6;
+  word-spacing: 4px;
+  margin-top: 30px;
+  font-size: 0.75rem;
+}
+
+.maths {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
